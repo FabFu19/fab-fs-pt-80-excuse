@@ -29,7 +29,7 @@ const getRandomValue = excuse_array =>
 const getChangeColorQuote = () => {
   const bgExcuse = document.querySelector(".excusecontent");
   let randomColor = bgColorQuote[getRandomExcuses(bgColorQuote)];
-  bgExcuse.style.backgroundColor = randomColor;
+  return (bgExcuse.style.backgroundColor = randomColor);
 };
 
 const generatingExcuses = () => {
